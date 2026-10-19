@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">How skill-router works</title>
+  <desc id="desc">Once: find your skills, agents read each one, and they write a personal catalog. Every /route: read your rules and the catalog, pick 1 to 5 skills, load them and do the work, check each part and log it, then suggest the next skills.</desc>
+  <rect width="1200" height="400" rx="24" fill="#0F1012"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+
+    <!-- lane 1: build once -->
+    <text x="56" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2" fill="#E07A3F">ONCE · /route build</text>
+    <g font-size="20" fill="#F4F1EA">
+      <rect x="56" y="82" width="330" height="76" rx="12" fill="#1A1C20" stroke="#2A2D33"/>
+      <text x="80" y="117">Find every installed skill</text>
+      <text x="80" y="143" font-size="18" fill="#9BA0A8">global, project, plugins, built-ins</text>
+      <path d="M386 120 H430" stroke="#5C6169" stroke-width="2"/>
+      <rect x="430" y="82" width="330" height="76" rx="12" fill="#1A1C20" stroke="#2A2D33"/>
+      <text x="454" y="117">Agents read each SKILL.md</text>
+      <text x="454" y="143" font-size="18" fill="#9BA0A8">in parallel, one per 40 skills</text>
+      <path d="M760 120 H804" stroke="#5C6169" stroke-width="2"/>
+      <rect x="804" y="82" width="340" height="76" rx="12" fill="#E07A3F" fill-opacity="0.12" stroke="#E07A3F"/>
+      <text x="828" y="117">Your personal catalog</text>
+      <text x="828" y="143" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#9BA0A8">USE · NOT · NEXT · NEEDS</text>
+    </g>
+
+    <!-- lane 2: every request -->
+    <text x="56" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2" fill="#E07A3F">EVERY PROMPT WITH /route</text>
+    <g font-size="20" fill="#F4F1EA">
+      <rect x="56" y="252" width="200" height="96" rx="12" fill="#1A1C20" stroke="#2A2D33"/>
+      <text x="76" y="290">Your rules,</text>
+      <text x="76" y="316">then catalog</text>
+      <path d="M256 300 H278" stroke="#5C6169" stroke-width="2"/>
+      <rect x="278" y="252" width="200" height="96" rx="12" fill="#1A1C20" stroke="#2A2D33"/>
+      <text x="298" y="290">Pick 1 to 5</text>
+      <text x="298" y="316">skills, show why</text>
+      <path d="M478 300 H500" stroke="#5C6169" stroke-width="2"/>
+      <rect x="500" y="252" width="200" height="96" rx="12" fill="#1A1C20" stroke="#2A2D33"/>
+      <text x="520" y="290">Load them,</text>
+      <text x="520" y="316">do the work</text>
+      <path d="M700 300 H722" stroke="#5C6169" stroke-width="2"/>
+      <rect x="722" y="252" width="200" height="96" rx="12" fill="#1A1C20" stroke="#2A2D33"/>
+      <text x="742" y="290">Check each part,</text>
+      <text x="742" y="316">log the result</text>
+      <path d="M922 300 H944" stroke="#5C6169" stroke-width="2"/>
+      <rect x="944" y="252" width="200" height="96" rx="12" fill="#E07A3F" fill-opacity="0.12" stroke="#E07A3F"/>
+      <text x="964" y="290">Next skills,</text>
+      <text x="964" y="316">and when</text>
+    </g>
+  </g>
+</svg>

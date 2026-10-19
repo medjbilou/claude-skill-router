@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">skill-router: add /route to any Claude Code prompt</title>
+  <desc id="desc">A prompt ending in /route passes through a catalog of installed skills; two skills are selected and loaded, and the reply ends with the next skill to run.</desc>
+  <rect width="1200" height="420" rx="24" fill="#0F1012"/>
+
+  <g id="title-block" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="64" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2" fill="#E07A3F">CLAUDE CODE PLUGIN</text>
+    <text x="62" y="172" font-size="72" font-weight="700" fill="#F4F1EA" letter-spacing="-1.5">skill-router</text>
+    <text x="64" y="228" font-size="28" fill="#F4F1EA">Add <tspan font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#E07A3F">/route</tspan> to any prompt.</text>
+    <text x="64" y="268" font-size="24" fill="#9BA0A8">It picks the right skills from everything</text>
+    <text x="64" y="300" font-size="24" fill="#9BA0A8">you installed, loads them, and tells you</text>
+    <text x="64" y="332" font-size="24" fill="#9BA0A8">what to run next.</text>
+    <text x="64" y="370" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#6B7079">/route build  ·  /route refresh  ·  MIT</text>
+  </g>
+
+  <g id="routing-proof" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <!-- the user's prompt -->
+    <rect x="628" y="52" width="508" height="54" rx="10" fill="#1A1C20" stroke="#2A2D33"/>
+    <text x="650" y="86" font-size="19" fill="#F4F1EA">fix the flaky login test <tspan fill="#E07A3F">/route</tspan></text>
+    <path d="M882 106 V130" stroke="#E07A3F" stroke-width="2"/>
+
+    <!-- the catalog: many installed skills, two chosen -->
+    <g font-size="18" fill="#5C6169">
+      <text x="640" y="160">better-ui</text>
+      <text x="812" y="160">e2e-testing</text>
+      <text x="984" y="160">hyperframes</text>
+      <text x="640" y="196">code-review</text>
+      <text x="984" y="196">archify</text>
+      <text x="640" y="232">grilling</text>
+      <text x="984" y="232">research</text>
+      <text x="640" y="268">simplify</text>
+      <text x="984" y="268">humanizer</text>
+    </g>
+    <rect x="800" y="176" width="172" height="30" rx="6" fill="#E07A3F" fill-opacity="0.14" stroke="#E07A3F"/>
+    <text x="812" y="197" font-size="17" fill="#F4F1EA">diagnosing-bugs</text>
+    <rect x="800" y="212" width="172" height="30" rx="6" fill="#E07A3F" fill-opacity="0.14" stroke="#E07A3F"/>
+    <text x="812" y="233" font-size="17" fill="#F4F1EA">python-testing</text>
+    <text x="812" y="268" font-size="18" fill="#5C6169">+ 400 more</text>
+    <path d="M882 280 V304" stroke="#E07A3F" stroke-width="2"/>
+
+    <!-- the reply -->
+    <rect x="628" y="304" width="508" height="72" rx="10" fill="#1A1C20" stroke="#2A2D33"/>
+    <text x="650" y="334" font-size="18" fill="#F4F1EA">Skills used: diagnosing-bugs, python-testing</text>
+    <text x="650" y="362" font-size="18" fill="#9BA0A8">Next: verification-loop (before push)</text>
+  </g>
+</svg>

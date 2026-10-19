@@ -1,0 +1,10 @@
+{
+  "name": "skill-router",
+  "version": "1.0.0",
+  "description": "Add /route to any prompt: picks the best 1-5 of your installed skills, shows which it loads and why, does the work, then suggests what to run next. Builds a personal catalog of your own skills once.",
+  "author": {
+    "name": "medjbilou"
+  },
+  "license": "MIT",
+  "keywords": ["skills", "router", "catalog", "productivity", "workflow"]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-router",
+  "description": "Skill router for Claude Code: add /route to a prompt and it loads the right skills for you.",
+  "owner": {
+    "name": "medjbilou"
+  },
+  "plugins": [
+    {
+      "name": "skill-router",
+      "description": "Add /route to any prompt: picks and loads the best of your installed skills, then suggests what to run next.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
